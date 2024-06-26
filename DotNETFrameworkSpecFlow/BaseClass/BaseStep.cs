@@ -34,6 +34,7 @@ namespace DotNETFrameworkSpecFlow.BaseClass
             }
 
             browserInstance.Navigate().GoToUrl(hubooHomePage);
+            browserInstance.FindElement(By.Id("CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll")).Click();
         }
 
         [AfterScenario]

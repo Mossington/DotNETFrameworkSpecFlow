@@ -10,8 +10,8 @@ namespace DotNETFrameworkSpecFlow.SpecFlow.Support.POM_Pages
 {
     public class Page_Home
     {
-        readonly public static Button TelephoneNumber = new Button(SelectBy.CssSelector, ".tel .tel__link.tel_desktop");
-        readonly public static Button LoginButton = new Button(SelectBy.CssSelector, "body > header > div.header-right > div.login > a:nth-child(1)");
-        readonly public static Button PricingButton = new Button(SelectBy.CssSelector, ".menu li:nth-child(3) a ");
+        readonly public static Button TelephoneNumber = new Button(SelectBy.CssSelector, "#header > div.header-main__in > div > div.header-group > div.header-contact > a.hc-phone > i");
+        readonly public static Button LoginButton = new Button(SelectBy.CssSelector, "#menu-item-35 > a");
+        readonly public static Button PricingButton = new Button(SelectBy.CssSelector, "#menu-item-96213 > a");
     }
 }
