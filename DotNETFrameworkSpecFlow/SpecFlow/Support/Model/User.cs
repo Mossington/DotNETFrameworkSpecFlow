@@ -32,7 +32,7 @@ namespace DotNETFrameworkSpecFlow.SpecFlow.Support.Model
         public static void UserLogin(string UserName, string Password)
         {
 
-            Page_Login.email("mai").Value = "xxxxx";
+            //Page_Login.email("mai").Value = "xxxxx";
             Page_Login.password.Value = "Password";
             //Page_Login.loginButton.Click();
         }

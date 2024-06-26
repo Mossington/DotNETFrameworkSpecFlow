@@ -81,27 +81,7 @@ this.ScenarioInitialize(scenarioInfo);
  testRunner.Given("i have navigated to the HuBoo website", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 9
- testRunner.Then("the user is on the HuBoo home page", "Multi-channel Ecommerce Fulfilment Made Easy", ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line hidden
-            this.ScenarioCleanup();
-        }
-        
-        [TechTalk.SpecRun.ScenarioAttribute("Clicking telephone number directs user to the contact us page", new string[] {
-                "Regression"}, SourceLine=14)]
-        public virtual void ClickingTelephoneNumberDirectsUserToTheContactUsPage()
-        {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Clicking telephone number directs user to the contact us page", null, new string[] {
-                        "Regression"});
-#line 15
-this.ScenarioInitialize(scenarioInfo);
-            this.ScenarioStart();
-#line 16
- testRunner.Given("i have navigated to the HuBoo website", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 17
- testRunner.When("i click the telephone number", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
-#line hidden
-#line 18
- testRunner.Then("i am redirected to the contact us page", "For sales enquiries please enter your details here.", ((TechTalk.SpecFlow.Table)(null)), "Then ");
+ testRunner.Then("the user is on the HuBoo home page", "eCommerce fulfilment", ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
@@ -121,44 +101,9 @@ this.ScenarioInitialize(scenarioInfo);
  testRunner.When("i click on the Login button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 27
- testRunner.And("i have naviagted to the Login Page", "Login to Huboo", ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.And("i have naviagted to the Login Page", "Sign in with your email address", ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line 31
  testRunner.Then("i can input user crednetials", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line hidden
-            this.ScenarioCleanup();
-        }
-        
-        [TechTalk.SpecRun.ScenarioAttribute("Coivid update is displayed on the home page", new string[] {
-                "Regression"}, SourceLine=33)]
-        public virtual void CoividUpdateIsDisplayedOnTheHomePage()
-        {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Coivid update is displayed on the home page", null, new string[] {
-                        "Regression"});
-#line 34
-this.ScenarioInitialize(scenarioInfo);
-            this.ScenarioStart();
-#line 35
- testRunner.Given("i have navigated to the HuBoo website", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line hidden
-#line 36
- testRunner.Then("the Covid update is displayedhuboo", "Coronavirus : We are open as normal", ((TechTalk.SpecFlow.Table)(null)), "Then ");
-#line hidden
-            this.ScenarioCleanup();
-        }
-        
-        [TechTalk.SpecRun.ScenarioAttribute("Large Letter to 500g displays the correct price for Huboo 24 Hour Standard", new string[] {
-                "Regression"}, SourceLine=41)]
-        public virtual void LargeLetterTo500GDisplaysTheCorrectPriceForHuboo24HourStandard()
-        {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Large Letter to 500g displays the correct price for Huboo 24 Hour Standard", null, new string[] {
-                        "Regression"});
-#line 42
-this.ScenarioInitialize(scenarioInfo);
-            this.ScenarioStart();
-#line 43
- testRunner.Given("a user is on the Huboo Pricing page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 44
- testRunner.Then("the Large Letter to 500g displays the correct price for Huboo 24 Hour Standard", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
