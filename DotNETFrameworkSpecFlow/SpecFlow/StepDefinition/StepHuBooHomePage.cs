@@ -22,7 +22,7 @@ namespace DotNETFrameworkSpecFlow.SpecFlow.StepDefinition
         [Then(@"the user is on the HuBoo home page")]
         public void ThenTheUserIsOnTheHuBooHomePage(string HPExpectedText)
         {
-            List<string> HomePageText_Actual = OnScreenTextHelper.DeSerializeActualScreenTextCssSeletor("#hero-c-block_d015f86c24c25db4313b9d0721eb42bc > div > div.hero-main__wrap > div.hero-main__content > h1 > span");
+            List<string> HomePageText_Actual = OnScreenTextHelper.DeSerializeActualScreenTextCssSeletor("#hero-c-block_7bebee5892cfa7d4c36a765d49ffb595 > div > div.hero-main__wrap > div.hero-main__content > h1 > span");
             List<string> HomePageText_Expected = OnScreenTextHelper.DeSerializeExpectedScreenTextString(HPExpectedText);
             HomePageText_Actual.Should().BeEquivalentTo(HomePageText_Expected);
 
